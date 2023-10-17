@@ -355,20 +355,19 @@ div.responsive-picture.picture {
   }
 }
 
-/* таблицы с аппликатурами */
-.fretboard-table {
+.4-fretboard-table {
     table-layout: auto;
     border-collapse: collapse;
     /*убираем пустые промежутки между ячейками*/
     width: 200px;
     background: transparent;
     page-break-inside: auto;
+    cellspacing: 0;
+    cellpadding: 4;
     
-}
-
-/* ячейки с номерами струн */
-.table-cell-with-strings-numbers {
-    width: 40px;
+    
+.4-fretboard-table td {
+    width: 20%;
     background: transparent;
     border-top: 1px dotted #000000;
     border-bottom: 1px dotted #000000;
@@ -380,6 +379,8 @@ div.responsive-picture.picture {
     padding-right: 0cm;
 }
 
+
+}
 /* подпись к таблицам */
 caption {
    caption-side: top;
@@ -387,4 +388,18 @@ caption {
    font-style: italic;
    padding: 10px 0;
    font-size: 14px;
+}
+
+
+td.4-fretboard-table {
+    width: 20%;
+    background: transparent;
+    border-top: 1px dotted #000000;
+    border-bottom: 1px dotted #000000;
+    border-left: 1px dotted #000000;
+    border-right: none;
+    padding-top: 0.1cm;
+    padding-bottom: 0.1cm;
+    padding-left: 0.1cm;
+    padding-right: 0cm;
 }
