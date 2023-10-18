@@ -355,33 +355,7 @@ div.responsive-picture.picture {
   }
 }
 
-.4-fretboard-table {
-    table-layout: auto;
-    border-collapse: collapse;
-    /*убираем пустые промежутки между ячейками*/
-    width: 200px;
-    background: transparent;
-    page-break-inside: auto;
-    cellspacing: 0;
-    cellpadding: 4;
-    
-    
-.4-fretboard-table td {
-    width: 20%;
-    background: transparent;
-    border-top: 1px dotted #000000;
-    border-bottom: 1px dotted #000000;
-    border-left: 1px dotted #000000;
-    border-right: none;
-    padding-top: 0.1cm;
-    padding-bottom: 0.1cm;
-    padding-left: 0.1cm;
-    padding-right: 0cm;
-}
-
-
-}
-/* подпись к таблицам */
+/* Tables captions */
 caption {
    caption-side: top;
    text-align: left;
@@ -390,16 +364,62 @@ caption {
    font-size: 14px;
 }
 
+/* Table 1 for 4 frets */
+.four-fretboard-table { 
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 200px;
+    background: #ffffff;
+    page-break-inside: auto;
+    text-align: center
 
-td.4-fretboard-table {
-    width: 20%;
-    background: transparent;
+}
+    
+
+table.four-fretboard-table td:first-child{
     border-top: 1px dotted #000000;
     border-bottom: 1px dotted #000000;
     border-left: 1px dotted #000000;
-    border-right: none;
+}
+
+
+table.four-fretboard-table td {
+    width: 20%;
+    border: 1px solid #000000;
+    padding-top: 0.1cm;
+    padding-bottom: 0.1cm;
+    padding-left: 0.1cm;
+    padding-right: 0cm
+}
+
+/* Table for 14 frets */
+.fourteen-fretboard-table { 
+    table-layout: auto;
+    border-collapse: collapse;
+    width: 560px;
+    background: #ffffff;
+    page-break-inside: auto;
+    text-align: center;
+
+}
+    
+
+table.fourteen-fretboard-table td:first-child{
+    border-top: 1px dotted #000000;
+    border-bottom: 1px dotted #000000;
+    border-left: 1px dotted #000000;
+}
+
+
+table.fourteen-fretboard-table td {
+    width: 7%;
+    border: 1px solid #000000;
     padding-top: 0.1cm;
     padding-bottom: 0.1cm;
     padding-left: 0.1cm;
     padding-right: 0cm;
 }
+
+
+
+
