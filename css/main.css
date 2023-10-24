@@ -44,9 +44,10 @@ h3.subtitle-section {
   margin-top: 0;
   margin-bottom: 24px;
   max-width: 700px;
-  font-weight: 400;
+  /*font-weight: 400;*/
+  font-style: bold;
   font-size: 24px;
-  font-family: 'Rubik', sans-serif;
+  font-family: FreeSerif, 'Rubik', sans-serif;
   line-height: 33px;
 }
 
@@ -56,9 +57,9 @@ p.paragraph.body-paragraph-tutorial {
   padding-bottom: 24px;
   max-width: 700px;
   color: rgba(0, 0, 0, .8);
-  font-weight: 300;
+  /*font-weight: 300;*/
   font-size: 20px;
-  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  font-family: FreeSerif, Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   line-height: 1.6;
 }
 
