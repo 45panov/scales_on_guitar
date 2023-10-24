@@ -381,7 +381,7 @@ table.fretboard-table td:first-child{
 }
 
 table.fretboard-table td {
-    width: 7%;
+    width: 5%;
     border: 1px solid #000000;
     padding-top: 0.1cm;
     padding-bottom: 0.1cm;
