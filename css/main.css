@@ -389,3 +389,9 @@ table.fretboard-table td {
     padding-right: 0cm;
 }
 
+
+.table-scrolldiv {
+    width: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
