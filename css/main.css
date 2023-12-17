@@ -395,3 +395,27 @@ table.fretboard-table td {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
+
+
+.basic-fingering-table {
+    table-layout: fixed;
+    width: 200px;
+    border-collapse: collapse;
+    page-break-inside: auto;
+    text-align: center;
+}
+
+table.basic-fingering-table td:first-child{
+    border-top: 1px dotted #000000;
+    border-bottom: 1px dotted #000000;
+    border-left: 1px dotted #000000;
+}
+
+table.basic-fingering-table td {
+    border: 1px solid #000000;
+    padding-top: 0.1cm;
+    padding-bottom: 0.1cm;
+    padding-left: 0.1cm;
+    padding-right: 0cm;
+}
+
